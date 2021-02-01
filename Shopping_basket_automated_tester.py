@@ -39,8 +39,9 @@ class ShoppingCartTest(unittest.TestCase):
         EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/ul/li[6]/div/div/div[1]/div/a/span"))
          )
         find_cart_link.click()
-        assert "tyhjä" not in driver.page_source
-        print("ITEM ADDED AND FOUND TO BASKET")
+
+        find_objects = driver.find_element_by_tag_name("h1")
+        assert find_objects.text == "Ostoskori"
 
     def tearDown(self):
         self.driver.close()
