@@ -9,3 +9,4 @@ Working principle:
 5. Select most expensive item and add it to basket
 6. Navigate to basket and verify that basket is not empty
 
+https://user-images.githubusercontent.com/47924595/109425549-68f68e00-79f1-11eb-8b2c-75d3dbe81190.mp4
