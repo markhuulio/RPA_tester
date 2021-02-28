@@ -8,6 +8,6 @@ Working principle:
 4. Sort items by price (High to low) from dropdown list
 5. Select most expensive item and add it to basket
 6. Navigate to basket and verify that basket is not empty
-7. 
+
 ![Script_run_gif](https://user-images.githubusercontent.com/47924595/109425640-df938b80-79f1-11eb-8c97-c82dc86b6ee5.gif)
 
